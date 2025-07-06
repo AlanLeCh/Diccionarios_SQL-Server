@@ -1,5 +1,6 @@
 
-USE LISCHILPANCINGOO -- BD a usar para generar el diccionario.
+USE ISSSTE_CUE_DSBB -- BD a usar para generar el diccionario.
+
 
 SELECT
 		a.name [tabla], -- Nombre de la tabla 
@@ -66,7 +67,8 @@ SELECT
 WHERE a.name <> 'sysdiagrams' 
 ORDER BY a.name,c.column_Id
 
-lischilpancingpo
+SELECT * FROM Campos
+
 
 USE COLIMAACT;
 
